@@ -10,7 +10,7 @@ public class HeroResource {
 	
 	@GetMapping(value = "/hello")
 	public String hello() {
-		return "Hello Jenkins - Thanks my God";
+		return "GOD IS ALL TO ME!!!";
 	}
 
 }

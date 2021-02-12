@@ -10,7 +10,7 @@ public class HeroResource {
 	
 	@GetMapping(value = "/hello")
 	public String hello() {
-		return "JENKINS WITH TOMCAT 8";
+		return "GOOG MORNING MY GOD";
 	}
 
 }

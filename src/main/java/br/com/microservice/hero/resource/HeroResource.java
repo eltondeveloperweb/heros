@@ -11,7 +11,7 @@ public class HeroResource {
 	
 	@GetMapping(value = "/hello/{text}")
 	public String hello(@PathVariable String text) {
-		return "Text: " + text;
+		return "TESTING: " + text;
 	}
 
 }

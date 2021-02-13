@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/heros")
 public class HeroResource {
 	
-	@GetMapping(value = "/hello")
-	public String hello() {
-		return "**********QUALITY GATE with JENKINS**********";
+	@GetMapping(value = "/hello/{text}")
+	public String hello(String text) {
+		return "Text: " + text;
 	}
 
 }

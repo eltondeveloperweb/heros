@@ -10,7 +10,7 @@ public class HeroResource {
 	
 	@GetMapping(value = "/hello")
 	public String hello() {
-		return "**********QUALITY GATE**********";
+		return "**********QUALITY GATE with JENKINS**********";
 	}
 
 }
